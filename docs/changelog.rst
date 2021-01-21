@@ -1,5 +1,23 @@
 Changelog
 =========
+3.0   (2021-01-21)
+------------------
+
+New flavors:
+
+- None
+
+New fields for existing flavors:
+
+- None
+
+Modifications to existing flavors:
+
+- Updated `NORDEA_COUNTRY_CODE_LENGTH` from`"EG": 27` to `"EG": 29`.
+
+Other changes:
+- Changed pip requirement on webApp.
+- Added `test_iban_validation_egypt` on webApp to validate length of Egypt.
 
 3.1   (unreleased)
 ------------------
