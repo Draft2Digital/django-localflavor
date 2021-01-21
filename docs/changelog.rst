@@ -16,6 +16,7 @@ Modifications to existing flavors:
 - Updated `NORDEA_COUNTRY_CODE_LENGTH` from`"EG": 27` to `"EG": 29`.
 
 Other changes:
+
 - Changed pip requirement on webApp.
 - Added `test_iban_validation_egypt` on webApp to validate length of Egypt.
 
