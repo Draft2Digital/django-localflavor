@@ -4,17 +4,17 @@ django-localflavor
 
 How to Make New Release (D2D Edition)
 ==================
-Update version in chroniker/__init__.py by changing the last number to be one greater. Example, change
+Update version in localflavor/__init__.py by changing the last number to be one greater. Example, change
 
-``version__ = "v1.0.22+d2d.002"``
+``version__ = "v5.0+d2d.001"``
 
 to
 
-``version__ = "v1.0.22+d2d.003"``
+``version__ = "v5.0+d2d.002"``
 
 Commit and push changes, then go to https://github.com/Draft2Digital/django-localflavor/releases and click Draft a new release.
 
-Click Choose a tag and put in the same version as is the value in the ``version`` variable (e.g. v1.0.22+d2d.004). Publish the release.
+Click Choose a tag and put in the same version as is the value in the ``version`` variable (e.g. v5.0+d2d.002). Publish the release.
 
 In projects that use this, update the version pointed at to be the new version.
 
