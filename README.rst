@@ -6,15 +6,15 @@ How to Make New Release (D2D Edition)
 ==================
 Update version in localflavor/__init__.py by changing the last number to be one greater. Example, change
 
-``version__ = "v5.0+d2d.001"``
+``version__ = "5.0+d2d.001"``
 
 to
 
-``version__ = "v5.0+d2d.002"``
+``version__ = "5.0+d2d.002"``
 
 Commit and push changes, then go to https://github.com/Draft2Digital/django-localflavor/releases and click Draft a new release.
 
-Click Choose a tag and put in the same version as is the value in the ``version`` variable (e.g. v5.0+d2d.002). Publish the release.
+Click Choose a tag and put in the same version as is the value in the ``version`` variable (e.g. 5.0+d2d.002). Publish the release.
 
 In projects that use this, update the version pointed at to be the new version.
 
