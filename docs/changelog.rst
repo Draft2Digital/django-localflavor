@@ -6,6 +6,9 @@ Changelog
 
 New flavors:
 
+- Updated Burkina Faso NORDEA IBAN code length and added Central African Republic, Equatorial Guinea, Guinea-Bissau,
+  Comoros, Morocco, Niger, Chad, and Togo to the NORDEA_COUNTRY_CODE_LENGTH dict in localflavor/generic/validators.py.
+
 - Added Falkland Islands (Malvinas), Honduras, Oman, Somalia and Yemen to IBAN_COUNTRY_CODE_LENGTH dict based on
   version 101 of the IBAN registry document from December 2025.
 
