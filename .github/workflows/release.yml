@@ -51,4 +51,4 @@ jobs:
           AWS_ACCESS_KEY_ID: ${{ secrets.PYPI_S3_ACCESS_KEY }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.PYPI_S3_SECRET_ACCESS_KEY }}
         run: |
-          s3pypi upload dist/* --bucket {{ PYPI_S3_BUCKET }} --region {{ PYPI_S3_REGION }}
+          s3pypi upload dist/* --bucket ${{ PYPI_S3_BUCKET }} --region ${{ PYPI_S3_REGION }}
