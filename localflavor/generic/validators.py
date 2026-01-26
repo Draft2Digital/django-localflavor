@@ -127,18 +127,26 @@ IBAN_COUNTRY_CODE_LENGTH = {'AD': 24,  # Andorra
 
 NORDEA_COUNTRY_CODE_LENGTH = {'AO': 25,  # Angola
                               'BJ': 28,  # Benin
-                              'BF': 27,  # Burkina Faso
+                              'BF': 28,  # Burkina Faso
+                              'CF': 27,  # Central African Republic
                               'CI': 28,  # Ivory Coast
                               'CG': 27,  # Congo
                               'CM': 27,  # Cameroon
                               'CV': 25,  # Cape Verde
                               'DZ': 24,  # Algeria
                               'GA': 27,  # Gabon
+                              'GQ': 27,  # Equatorial Guinea
+                              'GW': 25,  # Guinea-Bissau
                               'IR': 26,  # Iran
+                              'KM': 27,  # Comoros
+                              'MA': 28,  # Morocco
                               'MG': 27,  # Madagascar
                               'ML': 28,  # Mali
                               'MZ': 25,  # Mozambique
-                              'SN': 28}  # Senegal
+                              'NE': 28,  # Niger
+                              'SN': 28,  # Senegal
+                              'TD': 27,  # Chad
+                              'TG': 28}  # Togo
 
 
 @deconstructible
